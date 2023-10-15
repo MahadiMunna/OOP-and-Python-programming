@@ -2,8 +2,8 @@ class Phone:
     manufactured = 'China'
     
     # constructor
-    def __init__(self, owner, brand, price):
-        self.owner = owner
+    def __init__(self, owner, brand, price):#self by default must need to give
+        self.owner = owner#instance attribute use for different value for different object
         self.brand = brand
         self.price = price
 

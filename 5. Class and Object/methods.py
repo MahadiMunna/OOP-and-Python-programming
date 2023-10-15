@@ -8,7 +8,7 @@ class Phone:
     brand = 'samsung'
     features = ['camera', 'speaker', 'hammer']
 
-    def call(self):
+    def call(self):#method, self parameter must be given
         print('calling one person')
 
     def send_sms(self, phone, sms):
